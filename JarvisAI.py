@@ -43,8 +43,8 @@ def listen_for_hotword():
 
 # Function to run the Eel application
 def start_eel():
-    eel.init('web')
-    eel.start('index2.html', size=(800, 600))
+    eel.init('Jarvis-AI-Assistant')
+    eel.start('index.html', size=(800, 600))
 
 # Run Eel in a separate thread
 eel_thread = threading.Thread(target=start_eel)
